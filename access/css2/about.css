@@ -1,0 +1,40 @@
+.container{
+    background:url(https://i.redd.it/6rnmzi4g6nl51.jpg);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    background-color: rgb(14, 13, 13,0.7);
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    color: #fff;
+    width: 80%;
+    padding: 110px;
+    margin: 0;
+}
+h2{
+    color: #fff;
+    width: 50%;
+    margin: auto;
+}
+p{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-top: 6%;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(41, 39, 39,0.5);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: 60vh;
+}
+.images img{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    background-color: black; 
+}

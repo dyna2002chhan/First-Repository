@@ -10,7 +10,7 @@ body{
     height: 100vh;
 }
 .container{
-    padding: 0px;
+    padding: 2px;
     border-radius: 20px;
 }
 ul{
@@ -20,7 +20,8 @@ ul{
     width: 100%;
     padding:20px;
     margin: 0;
-    
+    position: fixed;
+    top: 0;
 }
 ul li{
     list-style: none;
@@ -101,3 +102,4 @@ h1{
 .text3{
     font-size: 15px;
 }
+
