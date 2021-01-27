@@ -1,0 +1,65 @@
+body{
+    margin: 0;padding: 0;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSTlEGhfWt04lanjIMfEUxlOoQc9Wcb29gNA&usqp=CAU);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.container{   
+    margin-top: 80px;
+}
+.container1 ul{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+}
+
+input{
+    width: 300px;
+}
+.firstlast{  
+    height: 5vh;
+}
+.email{
+    width: 53.4%;
+    height: 5vh;
+}
+.message{
+    width: 56.3%;
+    height: 20vh;
+}
+h1{
+    font-size:50px ;
+    font-family: sans-serif;
+}
+iframe{
+    margin-top: 50px;
+    width: 70%;
+    
+}                       .moreinfo{
+    margin-top: 0;
+}
+
+ul{
+    color: white;
+    padding: 10px;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}                       ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.cut{
+    float: right;
+    background-color: rgb(255, 255, 255,0.6);
+    clip-path: polygon(100% 0, 30% 0, 100% 100%);
+    width: 43%;
+    height: 60vh;
+}
+.moreinfo{
+    margin-left: 40%;
+}
+
