@@ -179,7 +179,7 @@ footer{
 footer:hover{
     background:rgb(0, 0, 255,0.5);
 }
-@media only screen and (min-width: 500px) {
+/* @media only screen and (min-width: 500px) {
     /* For tablets: */
     .col-s-1 {width: 100%;}
     .col-s-2 {width: 20%;}
@@ -193,11 +193,24 @@ footer:hover{
     .col-s-10 {width: 83%;}
     .col-s-11 {width: 91%;}
     .col-s-12 {width: 100%;}
-  }
-  @media(max-width:600px){
+  /* } */
+  /* @media(max-width:600px){
     .container1{
         display: none;
         background-color: #fff;
-    }
-}
+    } */
+/* } */ 
 
+@media only screen and (max-width: 700px) {
+    ul {
+        width: 100%;
+        display: block;
+
+    }
+    ul li{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+  
+}
