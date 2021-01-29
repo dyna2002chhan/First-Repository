@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
     <link rel="stylesheet" href="css2/contact.css">
+    <link rel="stylesheet" href="css2/hover.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -13,35 +14,94 @@
             <li><a href="/index.html"><i class="fa fa-home"></i>Home</a></li>
             <li><a href="/access/about.html">About Dyna</a></li>
             <li><a href="/access/resume.html">Resume</a></li>
-            <li><a href="/access/hobbies.html">Hobbies</a></li>
             <li><a href="/access/contact.html">Contact</a></li>
-        </ul>
-        
-    </div>
-    <div class="cut">
-        <p>dada</p>
+        </ul> 
     </div>
     <div class="container">
-        <h1>CONTACT ME</h1>
-        <div class="list">
-            <label for="">First Name</label> <input type="text" class="firstlast">
-            <label for="">Last Name</label><input type="text" class="firstlast"><br><br>
-            <label for="">Email</label><input type="text" class="email"> <br><br>
-            <label for="">Message</label><br><input type="text" class="message">
-        </div>
-        <div class="button">
-            <input type="submit" placeholder="SEND"> <input type="reset" value="CANCEL">
-        </div>
-    </div>
+        <form>
+          <h1>CONTACT</h1>
+          <div class="row">
+            <div class="col-25">
+              <label for="first">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="first" name="firstname" placeholder="Enter your first name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="last">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="last" name="lastname" placeholder="Enter your last name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email" placeholder="Enter your email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write your message" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+    
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4109.6212232828375!2d-73.9537722561075!3d40.75719797290026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258dc11baf945%3A0x9a2cb4b688d10760!2sEd%20Koch%20Queensboro%20Bridge!5e1!3m2!1sen!2skh!4v1611716228832!5m2!1sen!2skh" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     <div class="moreinfo">
-        <h3>More information</h3>
+        <h3 class="hvr-grow">More information</h3>
         <ul>
-            <li><a href="https://www.facebook.com/matteo.jacob.7"><i class="fa fa-facebook"></i>Facebook</a></li>
-            <li><a href="https://telegram.org/"><i class="fa fa-telegram"></i>Telegram</a></li>
-            <li><a href="https://mail.google.com/mail/u/0/?tab=rm#inbox" target = "_blank"><i class="fa fa-envelope"></i>Gmail</a></li>
-            <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i>Instagram</a></li>
+            <li class="hvr-buzz-out"><a href="https://www.facebook.com/matteo.jacob.7"><i class="fa fa-facebook"></i>Facebook</a></li>
+            <li class="hvr-buzz-out"><a href="https://telegram.org/"><i class="fa fa-telegram"></i>Telegram</a></li>
+            <li class="hvr-buzz-out"><a href="https://mail.google.com/mail/u/0/?tab=rm#inbox" target = "_blank"><i class="fa fa-envelope"></i>Gmail</a></li>
+            <li class="hvr-buzz-out"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i>Instagram</a></li>
         </ul>
     </div>
+    <div class="moreinfo1" id="more-info">
+        <div class="cover1">
+            <div class="firstline">
+                
+            </div>
+            <div class="text1">
+                <h2>Interesting</h2>
+                <h2>Work place</h2>
+                <h2>Communication</h2>
+                <h2>Awards</h2>
+            </div>
+        </div>   
+        <div class="cover2">
+            <div class="secondline">
+                
+            </div>
+            <div class="text2">
+                <h2>Partner</h2>
+                <h2>EZECOM </h2>
+                <h2>MEKONGNET</h2>
+                <h2>MICROSOFT</h2>
+            </div>
+        </div>
+        <div class="cover3">
+            <div class="thirdline">
+                
+            </div>
+            <div class="text3">
+                <h2>DYNA CHHAN</h2>
+                <h2>120 Broadway</h2>
+                <h2>New York, USA</h2>
+                <h2>+855 879 494 62</h2>
+            </div>
+        </div>
+    </div>
+    <footer id="foot">Copyright @Dyna Chhan 2020 Press</footer>
 </body>
 </html>

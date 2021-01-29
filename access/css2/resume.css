@@ -5,7 +5,9 @@ body{
 .container{
     background-color: #fff;
     display: flex;
-    background: rgb(66, 228, 228,0.9);
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOKVpitrFJEyHEYLfHsRqxouNME7YJYgi7DA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container1{
     padding: 2px;
@@ -14,7 +16,7 @@ body{
 ul{
     display: flex;
     justify-content: space-around;
-    background: rgba(10, 4, 4, 0.5);
+    background: rgb(0, 0, 255,0.3);
     width: 100%;
     padding:20px;
     margin: 0;
@@ -33,39 +35,50 @@ ul li a{
     text-decoration: none;
     font-size: 20px;
     font-family: sans-serif;
+    padding: 20px;
 }
 ul li a:hover{
     cursor: pointer;
     color: white;
     background-color: rgba(67, 23, 223, 0.8);
     width: 30%;
-    padding: 20px;
-    border-radius: 50%;
+    border-radius:10px;
 }
 img{
     width: 25%;
     height: 55vh;
     border-radius: 50%;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 70px;
     padding-top: 50px;
     padding-bottom: 40px;
 }
-
+h1:hover{
+    background-color: rgb(179, 179, 182);
+}
+h2:hover{
+    background-color: rgb(179, 179, 182);
+}
+h3:hover{
+    background-color:rgb(179, 179, 182) ;
+}
 h1{
     background-color: white;
     padding: 20px;
-    margin-top: 0;
+    margin-top: 20px;
     color: black;
 }
 .left-part{
     background: rgb(66, 228, 228,0.9);
-    width: 35%
+    width: 35%;
+    font-size: 20px;
 }
 .right-part{
     margin-left: 20px;
     background-color: teal;
     width: 100%;
+    color: rgb(255, 255, 255,0.7);
+    font-size: 20px;
 }
 .support{
     display: flex;
@@ -73,10 +86,12 @@ h1{
 h2{
     text-decoration: underline;
     background-color: white;
+    color: black;
 }
 h3{
     background: blue;
-    color: white;
+    color: rgb(255, 255, 255,0.7);
+    font-size: 20px;
 }
 h4{
     margin-right: 60px;
@@ -90,14 +105,16 @@ p{
     margin-left: 40px;
     font-size: 30px;
     padding-top: 60px;
+    color: white;
 }
 .download{
     text-align: center;
     width: 50%;
-    margin-top: 25%;
+    margin-top: 28%;
     background-color: blue;
     border-radius: 10px;
     margin-bottom: 10px;
+    padding: 5px;
 }
 .down{
     font-size: 5px;
@@ -105,6 +122,9 @@ p{
 }
 h4:hover{
     color: white;
+}
+h4 i{
+    color: #fff;
 }
 .cover1, .cover2, .cover3{
     display: flex;
@@ -159,3 +179,25 @@ footer{
 footer:hover{
     background:rgb(0, 0, 255,0.5);
 }
+@media only screen and (min-width: 500px) {
+    /* For tablets: */
+    .col-s-1 {width: 100%;}
+    .col-s-2 {width: 20%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 34%;}
+    .col-s-5 {width: 42%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58%;}
+    .col-s-8 {width: 66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83%;}
+    .col-s-11 {width: 91%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media(max-width:600px){
+    .container1{
+        display: none;
+        background-color: #fff;
+    }
+}
+
